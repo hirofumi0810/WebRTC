@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+  <head>
+    <link rel="stylesheet" href="css/room.css">
+    <script src="https://skyway.io/dist/0.3/peer.min.js"></script>
+    <script src="js/dist/multiparty.js"></script>
+    <script src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+
+  </head>
+
+  <body>
+
+    <div id="message">
+      <form>
+        <input type="text"><button type="submit">send</button>
+      </form>
+      <p class="receive">
+      </p>
+    </div>
+    <div id="streams">
+      <div>
+        <button id="video-mute" data-muted="false">video mute</button>
+        <button id="audio-mute" data-muted="false">audio mute</button>
+        <button id="finish" data-muted="false">finish</button>
+    </div>
+    <textarea id="textarea" rows=10 cols=80></textarea>
+    <button id="button" onclick="toggleStartStop()"></button>
+  </body>
+
+    <script src="js/room.js"></script>
+    <script src="js/voice_recognition.js"></script>
+</html>
+
+
+
