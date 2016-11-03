@@ -70,8 +70,6 @@
       }
     }
 
-
-
     function reset() {
       recognizing = false;
       button.innerHTML = "Click to Speak";
